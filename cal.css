@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background:url("image.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-shadow: 0px 0px 6px black,
+    0px 0px 8px white;
+}
+
+.display textarea{
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 2px solid black;
+    border-style: inset;
+    background-color: rgba(131, 131, 131, 0.5);
+    resize: none;
+    text-align: right;
+    font-size: 28px;
+    padding: 5px;
+}
+
+textarea::placeholder{
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
+    margin-right: 5px;
+}
+
+.keys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.operator_CA {
+    background-color: orangered;
+    color: white;
+}
+
+.operator_DEL{
+    background-color: orangered;
+    color: white;
+}
+
+.operator_equal{
+    background-color: orangered;
+    color: white;
+}
+
+.operator_modulus{
+    background-color: orangered;
+}
+
+.operator_divid{
+    background-color: orangered;
+    font-size: 20px;
+}
+
+.operator_mult{
+    background-color: orangered;
+    font-size: 20px;
+}
+
+.operator_minus{
+    background-color: orangered;
+    font-size: 20px;
+}
+
+.operator_plus{
+    background-color: orangered;
+    font-size: 20px;
+}
